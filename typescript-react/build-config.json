@@ -1,0 +1,20 @@
+{
+  "extends": "typescript-react",
+  "publicUrl": "/typescript-react",
+  "entries": {
+    "index": "src/index.tsx"
+  },
+  "pages": {
+    "index": {
+      "template": "src/index.html",
+      "entries": "index"
+    }
+  },
+  "deploy": {
+    "config": {
+      "accessKey": "2N5af45Z87Kak6XUp_inXelW4ItEETDi3UmOic98",
+      "secretKey": "XAaxIRW_Kj3C2JJc3sb3bpGf9-m4T3hzLBPyJuiL",
+      "bucket": "samples"
+    }
+  }
+}
