@@ -5,10 +5,10 @@
   "devDependencies": {},
   "dependencies": {
     "@types/node": "^8.0.58",
-    "@types/react": "^16.0.29",
+    "@types/react": "^16.0.30",
     "@types/react-dom": "^16.0.3",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

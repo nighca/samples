@@ -4,7 +4,22 @@ import App from './App'
 
 import './index.less'
 
+const rootEl = document.getElementById('root')
+
+const AppTypeAny: any = App
+
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  <AppTypeAny />,
+  rootEl
 )
+
+// 模块热替换
+if (process.env.NODE_ENV === 'development' && (module as any).hot) {
+  (module as any).hot.accept('./App', () => {
+    const NextApp = require('./App').default
+    ReactDOM.render(
+      <NextApp />,
+      rootEl
+    )
+  })
+}

@@ -11,7 +11,6 @@ export interface ISvgProps extends React.SVGAttributes<SVGElement> {
 
 export default function Svg(props: ISvgProps) {
   const { src, ...others } = props
-  debugger
 
   return (
     <svg {...others}>

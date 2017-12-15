@@ -8,7 +8,7 @@ class App extends React.Component<{}, void> {
     return (
       <div className="App">
         <Svg src={logo} />
-        Hello!
+        Hello!!
       </div>
     );
   }
