@@ -8,6 +8,9 @@
       "entries": "index"
     }
   },
+  "transforms": {
+    "svg@js": "file"
+  },
   "deploy": {
     "config": {
       "accessKey": "2N5af45Z87Kak6XUp_inXelW4ItEETDi3UmOic98",
