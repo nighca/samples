@@ -1,7 +1,6 @@
 import * as React from 'react'
 import Svg from './Svg'
-
-const logo = require('./logo.svg')
+import logo from './logo.svg'
 
 class App extends React.Component<{}, void> {
   render() {

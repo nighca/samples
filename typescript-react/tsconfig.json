@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "module": "es2015",
-    "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
@@ -11,6 +10,7 @@
     "lib": ["es2015", "dom"],
     "jsx": "react",
     "typeRoots": [
+      "types",
       "./node_modules/@types"
     ]
   },
