@@ -1,15 +1,14 @@
 {
-  "extends": "react",
-  "staticDir": "public",
-  "publicUrl": "/react/",
+  "publicUrl": "/common-chunk/",
+  "entries": {
+    "1": "src/entry-1.js",
+    "2": "src/entry-2.js"
+  },
   "pages": {
     "index": {
-      "template": "public/index.html",
-      "entries": "index"
+      "template": "src/index.html",
+      "entries": ["1", "2"]
     }
-  },
-  "transforms": {
-    "svg@js": "file"
   },
   "deploy": {
     "config": {

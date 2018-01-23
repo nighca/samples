@@ -1,5 +1,5 @@
 {
-  "publicUrl": "/hello-world",
+  "publicUrl": "/hello-world/",
   "entries": {
     "index": "src/index.js"
   },
