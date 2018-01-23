@@ -15,5 +15,8 @@
       "secretKey": "XAaxIRW_Kj3C2JJc3sb3bpGf9-m4T3hzLBPyJuiL",
       "bucket": "samples"
     }
+  },
+  "engines": {
+    "builder": "*"
   }
 }
