@@ -1,5 +1,6 @@
 {
   "extends": "react",
+  "publicUrl": "/react-mobx-ssr/",
   "entries": {
     "index": "src/index.jsx"
   },

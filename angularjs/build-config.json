@@ -1,15 +1,13 @@
 {
-  "publicUrl": "/common-chunk/",
+  "extends": "angular",
+  "publicUrl": "/",
   "entries": {
-    "1": "src/entry-1.js",
-    "2": "src/entry-2.js",
-    "vendor": "src/vendor.js"
+    "index": "src/index.js"
   },
-  "distDir": "common-chunk",
   "pages": {
     "index": {
       "template": "src/index.html",
-      "entries": ["1", "2"]
+      "entries": "index"
     }
   },
   "deploy": {
@@ -18,8 +16,5 @@
       "secretKey": "XAaxIRW_Kj3C2JJc3sb3bpGf9-m4T3hzLBPyJuiL",
       "bucket": "samples"
     }
-  },
-  "optimization": {
-    "extractVendor": "vendor"
   }
 }
