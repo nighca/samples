@@ -1,0 +1,10 @@
+{
+  "name": "transform-deps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "es-check": "^5.0.0"
+  }
+}
