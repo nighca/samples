@@ -16,12 +16,7 @@
         "modules": true
       }
     },
-    "m.less": {
-      "transformer": "less",
-      "config": {
-        "modules": true
-      }
-    }
+    "svg@m.css": "raw"
   },
   "deploy": {
     "config": {
